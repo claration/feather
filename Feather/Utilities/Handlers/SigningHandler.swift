@@ -119,12 +119,12 @@ final class SigningHandler: NSObject {
 			throw SigningFileHandlerError.missingCertifcate
 		}
 		
-		try await self.move()
-		try await self.addToDatabase()
-		
 		if let error = handler.hadError {
 			throw error
 		}
+		
+		try await self.move()
+		try await self.addToDatabase()
 	}
 	
 	func move() async throws {
