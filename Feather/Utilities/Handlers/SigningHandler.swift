@@ -456,7 +456,7 @@ extension SigningHandler {
 		}
 		
 		let ourTeamIdentifier = ourEntitlements.TeamIdentifier[0]
-		let ourBundleIdentifer = _app.identifier
+		let ourBundleIdentifer = options.appIdentifier ?? _app.identifier
 		
 		var baseDictionary: [String: Any] = (ourEntitlements.Entitlements ?? [:]).mapValues { $0.value }
 		let additionsDictionary: [String: Any] = binaryEntitlementsDict
@@ -488,19 +488,19 @@ extension SigningHandler {
 			baseDictionary["keychain-access-groups"] = keychainGroups
 		}
 		
-		let regex = try? NSRegularExpression(pattern: "^[A-Z0-9]{10}\\.")
+		let regex = try NSRegularExpression(pattern: "^[A-Z0-9]{10}\\.")
 		
 		if let groups = baseDictionary["keychain-access-groups"] as? [String] {
 			// remove anything that does not match XXXXXXXXXX. (for example, com.apple.token)
 			// only XXXXXXXXXX.* is allowed on keychain-access-groups
 			let validGroups = groups.filter { group in
 				let range = NSRange(location: 0, length: group.utf16.count)
-				return regex?.firstMatch(in: group, options: [], range: range) != nil
+				return regex.firstMatch(in: group, options: [], range: range) != nil
 			}
 			
 			let updatedGroups = validGroups.map { group -> String in
 				let range = NSRange(location: 0, length: group.utf16.count)
-				if regex?.firstMatch(in: group, options: [], range: range) != nil && group.count >= 11 {
+				if regex.firstMatch(in: group, options: [], range: range) != nil && group.count >= 11 {
 					let suffix = group.suffix(from: group.index(group.startIndex, offsetBy: 11))
 					return "\(ourTeamIdentifier).\(suffix)"
 				}
@@ -515,8 +515,11 @@ extension SigningHandler {
 			format: .xml,
 			options: 0
 		)
-		let tempDirectory = FileManager.default.temporaryDirectory
-		let tempEntitlementsURL = tempDirectory.appendingPathComponent(UUID().uuidString).appendingPathExtension("plist")
+
+		let tempEntitlementsURL = _uniqueWorkDir
+			.appendingPathComponent(UUID().uuidString)
+			.appendingPathExtension("plist")
+		
 		try plistData.write(to: tempEntitlementsURL, options: .atomic)
 		
 		_options.appEntitlementsFile = tempEntitlementsURL
