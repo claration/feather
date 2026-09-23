@@ -102,6 +102,8 @@ struct Options: Codable, Equatable {
 	var changeLanguageFilesForCustomDisplayName: Bool
 	/// If tweaks should be injected into all app extensions (PlugIns and Extensions)
 	var injectIntoExtensions: Bool
+	/// If app should merge entitlements with the binary.
+	var mergeEntitlements: Bool
 
 	// MARK: Experiments
 	
@@ -148,6 +150,7 @@ struct Options: Codable, Equatable {
 		removeProvisioning: false,
 		changeLanguageFilesForCustomDisplayName: false,
 		injectIntoExtensions: false,
+		mergeEntitlements: false,
 		
 		// MARK: Experiments
 		

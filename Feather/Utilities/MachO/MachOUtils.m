@@ -117,3 +117,99 @@ NSString *LCPatchMachOForSDK26(const char *path) {
 	close(fd);
 	return result;
 }
+
+#define CSMAGIC_EMBEDDED_SIGNATURE 0xfade0cc0
+#define CSSLOT_ENTITLEMENTS 5
+
+typedef struct {
+	uint32_t magic;
+	uint32_t length;
+} LCBlob;
+
+typedef struct {
+	uint32_t type;
+	uint32_t offset;
+} LCBlobIndex;
+
+typedef struct {
+	uint32_t magic;
+	uint32_t length;
+	uint32_t count;
+	LCBlobIndex index[];
+} LCSuperBlob;
+
+NSData *LCGetMachOEntitlements(const char *path) {
+	NSData *data = [NSData dataWithContentsOfFile:
+		[NSString stringWithUTF8String:path]
+	];
+	if (!data) return nil;
+
+	const uint8_t *base = data.bytes;
+	
+	size_t fileSize = data.length;
+	if (fileSize < sizeof(struct mach_header_64)) return nil;
+
+	struct mach_header_64 *header = (struct mach_header_64 *)base;
+	if (header->magic != MH_MAGIC_64) return nil;
+
+	struct load_command *command = (struct load_command *)(base + sizeof(struct mach_header_64));
+
+	struct linkedit_data_command *codeSignature = NULL;
+
+	for (uint32_t i = 0; i < header->ncmds; i++) {
+		if (command->cmd == LC_CODE_SIGNATURE) {
+			codeSignature = (struct linkedit_data_command *)command;
+			break;
+		}
+
+		command = (struct load_command *)(
+			(uint8_t *)command + command->cmdsize
+		);
+	}
+
+	if (!codeSignature) return nil;
+	if ((uint64_t)codeSignature->dataoff + codeSignature->datasize > fileSize) return nil;
+
+	const LCSuperBlob *superBlob =
+	(const LCSuperBlob *)(base + codeSignature->dataoff);
+	if (OSSwapBigToHostInt32(superBlob->magic) != CSMAGIC_EMBEDDED_SIGNATURE) return nil;
+
+	uint32_t count = OSSwapBigToHostInt32(superBlob->count);
+
+	for (uint32_t i = 0; i < count; i++) {
+		if (OSSwapBigToHostInt32(superBlob->index[i].type) != CSSLOT_ENTITLEMENTS) continue;
+
+		uint32_t offset = OSSwapBigToHostInt32(superBlob->index[i].offset);
+
+		const LCBlob *blob = (const LCBlob *)((const uint8_t *)superBlob + offset);
+
+		uint32_t length = OSSwapBigToHostInt32(blob->length);
+
+		if (length <= sizeof(LCBlob)) return nil;
+
+		NSData *plistData = [NSData dataWithBytes:
+			(const uint8_t *)blob + sizeof(LCBlob)
+			length:length - sizeof(LCBlob)];
+
+		NSError *error = nil;
+
+		NSDictionary *entitlements =
+			[NSPropertyListSerialization propertyListWithData:plistData
+														options:NSPropertyListImmutable
+														 format:nil
+														  error:&error];
+
+		if (!entitlements) return nil;
+
+		NSData *xml = [NSPropertyListSerialization
+			dataWithPropertyList:entitlements
+			format:NSPropertyListXMLFormat_v1_0
+			options:0
+			error:&error];
+
+		if (!xml) return nil;
+		return xml;
+	}
+
+	return nil;
+}

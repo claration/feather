@@ -9508,6 +9508,17 @@
         }
       }
     },
+    "Merge Entitlements" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Merge Entitlements"
+          }
+        }
+      }
+    },
     "Minimum Requirement" : {
       "comment" : "Minimum app version",
       "extractionState" : "manual",
@@ -17370,6 +17381,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "此选项强制为应用启用iOS 26的Liquid Glass。由于使用的框架不同，此选项不一定有效果。"
+          }
+        }
+      }
+    },
+    "This option merges entitlements with the embedded entitlements from the app you're signing." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This option merges entitlements with the embedded entitlements from the app you're signing."
           }
         }
       }

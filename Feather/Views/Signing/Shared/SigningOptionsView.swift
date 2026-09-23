@@ -161,7 +161,18 @@ struct SigningOptionsView: View {
 			Text(.localized("This will delete your imported application after signing, to save on using unneeded space."))
 		}
 		
-		NBSection(.localized("Experiments")) {
+		Section {
+			_toggle(
+				.localized("Merge Entitlements"),
+				systemImage: "doc.plaintext",
+				isOn: $options.mergeEntitlements,
+				temporaryValue: temporaryOptions?.mergeEntitlements
+			).disabled(options.appEntitlementsFile != nil)
+		} footer: {
+			Text(.localized("This option merges entitlements with the embedded entitlements from the app you're signing."))
+		}
+		
+		NBSection(.localized("Experiments")) {			
 			_toggle(
 				.localized("Replace Substrate with ElleKit"),
 				systemImage: "pencil",

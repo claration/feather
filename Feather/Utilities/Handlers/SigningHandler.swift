@@ -103,6 +103,10 @@ final class SigningHandler: NSObject {
 		// iOS "26" (19) needs special treatment
 		try await _locateMachosAndFixupArm64eSlice(for: movedAppPath)
 		
+		if _options.mergeEntitlements && _options.appEntitlementsFile == nil {
+			try await _mergeEntitlements(for: movedAppPath, with: _options)
+		}
+		
 		let handler = ZsignHandler(appUrl: movedAppPath, options: _options, cert: appCertificate)
 		try await handler.disinject()
 		
@@ -425,6 +429,97 @@ extension SigningHandler {
 				continue
 			}
 		}
+	}
+	
+	// shit ass code
+	private func _mergeEntitlements(for app: URL, with options: Options) async throws {
+		guard let appBinPath = Bundle(url: app)?.executableURL else {
+			throw SigningFileHandlerError.appNotFound
+		}
+		
+		guard 
+			let binaryProfile = LCGetMachOEntitlements(appBinPath.path),
+			let binaryEntitlementsDict = (try? PropertyListSerialization.propertyList(
+				from: binaryProfile,
+				options: [],
+				format: nil
+			)) as? [String: Any]
+		else {
+			return
+		}
+		
+		guard 
+			let cert = self.appCertificate, 
+			let ourEntitlements = CertificateReader(Storage.shared.getFile(.provision, from: cert)).decoded
+		else {
+			return 
+		}
+		
+		let ourTeamIdentifier = ourEntitlements.TeamIdentifier[0]
+		let ourBundleIdentifer = _app.identifier
+		
+		var baseDictionary: [String: Any] = (ourEntitlements.Entitlements ?? [:]).mapValues { $0.value }
+		let additionsDictionary: [String: Any] = binaryEntitlementsDict
+
+		
+		// replaces wildcards in base entitlements with new application id
+		// aggressive approach though, lets just hope this works :)
+		if let ourBundleIdentifer {
+			func replaceWildcards(in value: Any, with newAppID: String) -> Any {
+				if let stringValue = value as? String {
+					return stringValue.replacingOccurrences(of: "*", with: newAppID)
+				} else if let arrayValue = value as? [Any] {
+					return arrayValue.map { replaceWildcards(in: $0, with: newAppID) }
+				} else if let dictValue = value as? [String: Any] {
+					return dictValue.mapValues { replaceWildcards(in: $0, with: newAppID) }
+				} else if let anyCodable = value as? AnyCodable {
+					let substituted = replaceWildcards(in: anyCodable.value, with: newAppID)
+					return AnyCodable(substituted)
+				}
+				return value
+			}
+			
+			baseDictionary = baseDictionary.mapValues { 
+				replaceWildcards(in: $0, with: ourBundleIdentifer) 
+			}
+		}
+		
+		if let keychainGroups = additionsDictionary["keychain-access-groups"] as? [Any] {
+			baseDictionary["keychain-access-groups"] = keychainGroups
+		}
+		
+		let regex = try? NSRegularExpression(pattern: "^[A-Z0-9]{10}\\.")
+		
+		if let groups = baseDictionary["keychain-access-groups"] as? [String] {
+			// remove anything that does not match XXXXXXXXXX. (for example, com.apple.token)
+			// only XXXXXXXXXX.* is allowed on keychain-access-groups
+			let validGroups = groups.filter { group in
+				let range = NSRange(location: 0, length: group.utf16.count)
+				return regex?.firstMatch(in: group, options: [], range: range) != nil
+			}
+			
+			let updatedGroups = validGroups.map { group -> String in
+				let range = NSRange(location: 0, length: group.utf16.count)
+				if regex?.firstMatch(in: group, options: [], range: range) != nil && group.count >= 11 {
+					let suffix = group.suffix(from: group.index(group.startIndex, offsetBy: 11))
+					return "\(ourTeamIdentifier).\(suffix)"
+				}
+				return group
+			}
+			
+			baseDictionary["keychain-access-groups"] = updatedGroups
+		}
+		
+		let plistData = try PropertyListSerialization.data(
+			fromPropertyList: baseDictionary,
+			format: .xml,
+			options: 0
+		)
+		let tempDirectory = FileManager.default.temporaryDirectory
+		let tempEntitlementsURL = tempDirectory.appendingPathComponent(UUID().uuidString).appendingPathExtension("plist")
+		try plistData.write(to: tempEntitlementsURL, options: .atomic)
+		
+		_options.appEntitlementsFile = tempEntitlementsURL
 	}
 	
 	private func _enumerateFiles(at base: URL, where predicate: (String) -> Bool) -> [URL] {
