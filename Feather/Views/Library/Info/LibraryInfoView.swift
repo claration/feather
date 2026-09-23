@@ -92,6 +92,24 @@ extension LibraryInfoView {
 			NavigationLink(.localized("Dylibs")) {
 				SigningDylibView(app: app, options: .constant(nil))
 			}
+			NavigationLink(.localized("Entitlements")) {
+				if 
+					let path = Bundle(url: Storage.shared.getAppDirectory(for: app)!)?.executableURL?.path,
+					let data = LCGetMachOEntitlements(path),
+					let rawDict = (try? PropertyListSerialization.propertyList(
+						from: data,
+						options: [],
+						format: nil
+					)) as? [String: Any] 
+				{
+					let binaryEntitlementsDict = rawDict.mapValues { AnyCodable($0) }
+					CertificatesInfoEntitlementView(entitlements: binaryEntitlementsDict)
+				} else {
+					Text(.localized("No Entitlements listed."))
+						.font(.footnote)
+						.foregroundColor(.disabled())
+				}
+			}
 		}
 	}
 	
@@ -103,3 +121,4 @@ extension LibraryInfoView {
 		.copyableText(desc)
 	}
 }
+
