@@ -21,7 +21,6 @@ struct SigningView: View {
 	@State private var _isImagePickerPresenting = false
 	@State private var _isSigning = false
 	@State private var _selectedPhoto: PhotosPickerItem? = nil
-	@State private var _minimumOSVersion: String? = nil
 	@State var appIcon: UIImage?
 	
 	// MARK: Fetch
@@ -144,21 +143,7 @@ struct SigningView: View {
 			{
 				_temporaryOptions.appName = newName
 			}
-			
-			_minimumOSVersion = _readMinimumOSVersion()
 		}
-	}
-	
-	private func _readMinimumOSVersion() -> String? {
-		guard
-			let appDirectory = Storage.shared.getAppDirectory(for: app),
-			let info = NSDictionary(contentsOf: appDirectory.appendingPathComponent("Info.plist")),
-			let minimumOSVersion = info["MinimumOSVersion"] as? String,
-			!minimumOSVersion.isEmpty
-		else {
-			return nil
-		}
-		return minimumOSVersion
 	}
 }
 

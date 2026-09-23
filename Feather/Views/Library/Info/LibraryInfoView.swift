@@ -60,6 +60,14 @@ extension LibraryInfoView {
 			if let date = app.date {
 				_infoCell(.localized("Date Added"), desc: date.formatted())
 			}
+			
+			if 
+				let name = app.name, 
+				let appDirectory = Storage.shared.getAppDirectory(for: app),
+				let appMinimumOS = Bundle(url: appDirectory)?.minimumOSVersion
+			{
+				_infoCell(.localized("Minimum OS"), desc: appMinimumOS)
+			}
 		}
 	}
 	
