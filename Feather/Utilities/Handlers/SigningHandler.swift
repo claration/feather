@@ -487,6 +487,8 @@ extension SigningHandler {
 			}
 		}
 		
+		// this will not consider app extensions, zsign doesnt have functionality be more specific
+		// with provisioning profiles, this works fine for impactors "Only register main bundle" though.
 		if let keychainGroups = additionsDictionary["keychain-access-groups"] as? [Any] {
 			baseDictionary["keychain-access-groups"] = keychainGroups
 		}
