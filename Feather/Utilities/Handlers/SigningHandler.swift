@@ -409,6 +409,9 @@ extension SigningHandler {
 		_enumerateFiles(at: app) { $0.hasSuffix("_CodeSignature") }
 	}
 	
+	// this is mainly for CydiaSubstrate where it often contains legacy arm64e slices
+	// which cause the app to crash when loaded on ios 26+,
+	// avoids `(cpu type/subtype in slice (arm64e.old) does not match fat header (arm64e))`
 	private func _locateMachosAndFixupArm64eSlice(for app: URL) async throws {
 		let machoFiles = _enumerateFiles(at: app) {
 			$0.hasSuffix(".dylib") || $0.hasSuffix(".framework")
