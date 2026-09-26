@@ -482,8 +482,21 @@ extension SigningHandler {
 				return value
 			}
 			
-			baseDictionary = baseDictionary.mapValues { 
-				replaceWildcards(in: $0, with: ourBundleIdentifer) 
+			baseDictionary = baseDictionary.reduce(into: [:]) { result, entry in
+				let (key, value) = entry
+
+				if 
+					key == "com.apple.developer.associated-domains" ||
+					key == "application.identifier"
+				{
+					result[key] = value
+					return
+				}
+
+				result[key] = replaceWildcards(
+					in: value,
+					with: ourBundleIdentifer
+				)
 			}
 		}
 		
