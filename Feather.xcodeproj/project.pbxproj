@@ -20,6 +20,8 @@
 		3371F7322DA9ECDD00281AC6 /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 3371F7312DA9ECDD00281AC6 /* Zip */; };
 		33CF13392DB5ACFB0021D4C5 /* SWCompression in Frameworks */ = {isa = PBXBuildFile; productRef = 33CF13382DB5ACFB0021D4C5 /* SWCompression */; };
 		570920BE2F98A4F0008C4A83 /* Feather.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 570920BD2F98A4F0008C4A83 /* Feather.xcconfig */; };
+		C498C93D305B4B3A00806F32 /* X509 in Frameworks */ = {isa = PBXBuildFile; productRef = C498C93C305B4B3A00806F32 /* X509 */; };
+		F61C0CA130AA100000000003 /* Crypto in Frameworks */ = {isa = PBXBuildFile; productRef = F61C0CA130AA100000000002 /* Crypto */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C498C93D305B4B3A00806F32 /* X509 in Frameworks */,
+				F61C0CA130AA100000000003 /* Crypto in Frameworks */,
 				330F68FE2DBF7C8600D8C35D /* NimbleViews in Frameworks */,
 				330F68FC2DBF7C8600D8C35D /* NimbleExtensions in Frameworks */,
 				3346F5C22DC329A200C7D508 /* Zsign in Frameworks */,
@@ -140,6 +144,8 @@
 				3346F8482DC6D64800C7D508 /* NimbleJSON */,
 				33693A072DC8BF5B00730215 /* AltSourceKit */,
 				3349E7662DEFB46F00E317ED /* IDeviceSwift */,
+				C498C93C305B4B3A00806F32 /* X509 */,
+				F61C0CA130AA100000000002 /* Crypto */,
 			);
 			productName = Feather;
 			productReference = 3379C1B92DA869A1004372DA /* Feather.app */;
@@ -190,6 +196,8 @@
 				3346F8372DC6C68300C7D508 /* XCRemoteSwiftPackageReference "Nuke" */,
 				33693A062DC8BF5B00730215 /* XCLocalSwiftPackageReference "AltSourceKit" */,
 				3349E7652DEFB46F00E317ED /* XCLocalSwiftPackageReference "IDeviceKitten" */,
+				C498C93B305B4B3A00806F32 /* XCRemoteSwiftPackageReference "swift-certificates" */,
+				F61C0CA130AA100000000001 /* XCRemoteSwiftPackageReference "swift-crypto" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3379C1BA2DA869A1004372DA /* Products */;
@@ -546,6 +554,22 @@
 				version = 4.8.7;
 			};
 		};
+		C498C93B305B4B3A00806F32 /* XCRemoteSwiftPackageReference "swift-certificates" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-certificates.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.20.0;
+			};
+		};
+		F61C0CA130AA100000000001 /* XCRemoteSwiftPackageReference "swift-crypto" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-crypto.git";
+			requirement = {
+				kind = exactVersion;
+				version = 3.12.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -600,6 +624,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 33CF13372DB5ACFB0021D4C5 /* XCRemoteSwiftPackageReference "SWCompression" */;
 			productName = SWCompression;
+		};
+		C498C93C305B4B3A00806F32 /* X509 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C498C93B305B4B3A00806F32 /* XCRemoteSwiftPackageReference "swift-certificates" */;
+			productName = X509;
+		};
+		F61C0CA130AA100000000002 /* Crypto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F61C0CA130AA100000000001 /* XCRemoteSwiftPackageReference "swift-crypto" */;
+			productName = Crypto;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
