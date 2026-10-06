@@ -1,8 +1,8 @@
 //
-//  LocalServer.swift
+//  ServerInstaller+SSL.swift
 //  Feather
 //
-//  Created by Nagata Asami on 17/9/26.
+//  Created by samsam on 10/6/26.
 //
 
 import Foundation
@@ -10,10 +10,21 @@ import Crypto
 import SwiftASN1
 import X509
 
-enum LocalServer {
+extension ServerInstaller {
 	static let serverHostname = "feather.localhost"
 
-	static func createServerCert() throws {
+	@discardableResult 
+	static func createServerCert() throws -> (crt: URL, pem: URL) {
+		let certificateURL = URL.documentsDirectory.appendingPathComponent("server.crt")
+		let privateKeyURL = URL.documentsDirectory.appendingPathComponent("server.pem")
+		
+		if
+			FileManager.default.fileExists(atPath: certificateURL.path), 
+			FileManager.default.fileExists(atPath: privateKeyURL.path) 
+		{
+			return (certificateURL, privateKeyURL)
+		}
+		
 		let root = try rootMaterial()
 		let serverPrivateKey = X509.Certificate.PrivateKey(P256.Signing.PrivateKey())
 		
@@ -52,10 +63,23 @@ enum LocalServer {
 			issuerPrivateKey: root.privateKey
 		)
 
-		let certificateURL = URL.documentsDirectory.appendingPathComponent("server.crt")
-		let privateKeyURL = URL.documentsDirectory.appendingPathComponent("server.pem")
 		try Data(serverCertificate.serializeAsPEM().pemString.utf8).write(to: certificateURL, options: .atomic)
 		try Data(serverPrivateKey.serializeAsPEM().pemString.utf8).write(to: privateKeyURL, options: .atomic)
+		
+		return (certificateURL, privateKeyURL)
+	}
+	
+	static func rootCertificateDataURL() throws -> URL {
+		let root = try rootMaterial()
+		let base64 = root.der.base64EncodedString()
+
+		guard let url = URL(
+			string: "data:application/x-x509-ca-cert;base64,\(base64)"
+		) else {
+			throw CocoaError(.fileReadCorruptFile)
+		}
+
+		return url
 	}
 
 	private static func rootMaterial() throws -> RootMaterialModel {
