@@ -49,7 +49,8 @@ struct SourcesAddView: View {
 		"https://raw.githubusercontent.com/paigely/Navic/refs/heads/master/app-repo.json",
 		"https://stikdebug.xyz/index.json",
 		"https://apps.manicemu.site/altstore",
-		"https://alt.crystall1ne.dev"
+		"https://alt.crystall1ne.dev",
+		"https://instinctaiapp.gitlab.io/wise-apps-source/source.json"
 	].map { URL(string: $0)! }
 	
 	@State private var _isImporting = false
