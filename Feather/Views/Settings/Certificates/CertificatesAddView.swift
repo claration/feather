@@ -33,9 +33,27 @@ struct CertificatesAddView: View {
 					_importButton(.localized("Import Certificate File"), file: _p12URL) {
 						_isImportingP12Presenting = true
 					}
+					#if targetEnvironment(macCatalyst)
+					.fileImporter(
+						isPresented: $_isImportingP12Presenting,
+						allowedContentTypes: [.p12]
+					) { result in
+						guard let url = try? result.get() else { return }
+						_p12URL = url
+					}
+					#endif
 					_importButton(.localized("Import Provisioning File"), file: _provisionURL) {
 						_isImportingMobileProvisionPresenting = true
 					}
+					#if targetEnvironment(macCatalyst)
+					.fileImporter(
+						isPresented: $_isImportingMobileProvisionPresenting,
+						allowedContentTypes: [.mobileProvision]
+					) { result in
+						guard let url = try? result.get() else { return }
+						_provisionURL = url
+					}
+					#endif
 				}
 				NBSection(.localized("Password")) {
 					SecureField(.localized("Enter Password"), text: $_p12Password)
@@ -59,6 +77,7 @@ struct CertificatesAddView: View {
 					_saveCertificate()
 				}
 			}
+			#if !targetEnvironment(macCatalyst)
 			.sheet(isPresented: $_isImportingP12Presenting) {
 				FileImporterRepresentableView(
 					allowedContentTypes: [.p12],
@@ -79,6 +98,7 @@ struct CertificatesAddView: View {
 				)
 				.ignoresSafeArea()
 			}
+			#endif
 		}
 	}
 }
