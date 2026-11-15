@@ -196,6 +196,20 @@ struct LibraryView: View {
 				SigningView(app: app.base)
 					.compatNavigationTransition(id: app.base.uuid ?? "", ns: _namespace)
 			}
+			#if targetEnvironment(macCatalyst)
+			.fileImporter(
+				isPresented: $_isImportingPresenting,
+				allowedContentTypes: [.ipa, .tipa],
+				allowsMultipleSelection: true
+			) { result in
+				guard let urls = try? result.get() else { return }
+				for url in urls {
+					let id = "FeatherManualDownload_\(UUID().uuidString)"
+					let dl = downloadManager.startArchive(from: url, id: id)
+					try? downloadManager.handlePachageFile(url: url, dl: dl)
+				}
+			}
+			#else
 			.sheet(isPresented: $_isImportingPresenting) {
 				FileImporterRepresentableView(
 					allowedContentTypes:  [.ipa, .tipa],
@@ -212,6 +226,7 @@ struct LibraryView: View {
 				)
 				.ignoresSafeArea()
 			}
+			#endif
 			.alert(.localized("Import from URL"), isPresented: $_isDownloadingPresenting) {
 				TextField(.localized("URL"), text: $_alertDownloadString)
 					.textInputAutocapitalization(.never)
