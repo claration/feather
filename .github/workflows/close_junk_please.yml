@@ -19,14 +19,14 @@ jobs:
               const { owner, repo } = context.repo;
               const issue_number = issue.number;
 
-              await github.issues.createComment({
+              await github.rest.issues.createComment({
                 owner,
                 repo,
                 issue_number,
                 body: 'Submitting these types of issues is not supported! Use the standard issue template instead.'
               });
 
-              await github.issues.update({
+              await github.rest.issues.update({
                 owner,
                 repo,
                 issue_number,
@@ -34,7 +34,7 @@ jobs:
                 state_reason: 'not_planned'
               });
 
-              await github.issues.lock({
+              await github.rest.issues.lock({
                 owner,
                 repo,
                 issue_number,
