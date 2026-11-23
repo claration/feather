@@ -131,6 +131,36 @@
             }
           }
         },
+        "lt" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld programos"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld programos"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld programa"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld programų"
+                }
+              }
+            }
+          }
+        },
         "pl" : {
           "variations" : {
             "plural" : {
@@ -156,6 +186,36 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld aplikacji"
+                }
+              }
+            }
+          }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld приложения"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld приложений"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld приложение"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld приложения"
                 }
               }
             }
@@ -322,6 +382,36 @@
             }
           }
         },
+        "lt" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dienos"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dienos"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld diena"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld dienų"
+                }
+              }
+            }
+          }
+        },
         "pl" : {
           "variations" : {
             "plural" : {
@@ -347,6 +437,36 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld dni"
+                }
+              }
+            }
+          }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld дня"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld дней"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld день"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld дня"
                 }
               }
             }
@@ -430,10 +550,22 @@
             "value" : "필요한 시스템 Dylib %lld개가 표시되지 않았습니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nerodoma reikalingų sistemos dylib: %lld."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nie pokazano %lld wymaganych bibliotek systemowych"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не показано обязательных системных dylib: %lld."
           }
         },
         "tr" : {
@@ -550,6 +682,36 @@
             "value" : "%lld개 소스"
           }
         },
+        "lt" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld šaltiniai"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld šaltinio"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld šaltinis"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld šaltinių"
+                }
+              }
+            }
+          }
+        },
         "pl" : {
           "variations" : {
             "plural" : {
@@ -575,6 +737,36 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld źródeł"
+                }
+              }
+            }
+          }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld источника"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld источников"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld источник"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld источника"
                 }
               }
             }
@@ -645,10 +837,22 @@
             "value" : "💜 후원자분들이 아니었다면 이 일을 해낼 수 없었을 거예요!"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "💜 Be mano rėmėjų to nebūtų įvykę!"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "💜 To nie byłoby możliwe bez moich sponsorów!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "💜 Без моих спонсоров этого бы не случилось!"
           }
         },
         "tr" : {
@@ -716,10 +920,22 @@
             "value" : "정보"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apie"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "O aplikacji"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "О приложении"
           }
         },
         "tr" : {
@@ -776,10 +992,22 @@
             "value" : "%@에 대하여"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apie %@"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "O %@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "О %@"
           }
         },
         "tr" : {
@@ -853,6 +1081,12 @@
             "value" : "추가"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pridėti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -906,10 +1140,22 @@
             "value" : "애플리케이션 서명에 사용되는 인증서를 추가하고 관리합니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pridėkite ir tvarkykite programoms pasirašyti naudojamus sertifikatus."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dodawaj i zarządzaj certyfikatami używanymi do podpisywania aplikacji."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавляйте сертификаты для подписи приложений и управляйте ими."
           }
         },
         "tr" : {
@@ -977,10 +1223,22 @@
             "value" : "소스 추가"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pridėti šaltinį"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dodaj źródło"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить источник"
           }
         },
         "tr" : {
@@ -1036,10 +1294,22 @@
             "value" : "앱에 대한 현지화된 설명을 추가합니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prideda programos lokalizuotą aprašymą."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dodaje duże pole opisu aplikacji."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавляет локализованное описание приложения."
           }
         },
         "tr" : {
@@ -1119,10 +1389,22 @@
             "value" : "고급"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papildomai"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zaawansowane"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дополнительно"
           }
         },
         "tr" : {
@@ -1166,10 +1448,22 @@
             "value" : "고급 설치 방법"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Išplėstinis diegimo metodas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zaawansowana metoda instalacji"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Расширенный способ установки"
           }
         },
         "tr" : {
@@ -1237,10 +1531,22 @@
             "value" : "모두"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visi"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wszystkie"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Все"
           }
         },
         "tr" : {
@@ -1308,10 +1614,22 @@
             "value" : "모든 앱 파일은 문서 폴더에 포함되어 있으며, 다음은 해당 폴더로 빠르게 갈 수 있는 링크들 입니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visi programos failai laikomi dokumentų kataloge. Čia pateikiamos kelios greitosios nuorodos į juos."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wszystkie pliki Feather znajdują się w katalogu dokumentów, oto szybkie odnośniki do nich."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Все файлы приложения хранятся в папке документов. Вот несколько быстрых ссылок на них."
           }
         },
         "tr" : {
@@ -1380,10 +1698,22 @@
             "value" : "모든 저장소"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visos saugyklos"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wszystkie repozytoria"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Все репозитории"
           }
         },
         "tr" : {
@@ -1451,10 +1781,22 @@
             "value" : "대체 아이콘"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alternatyvios piktogramos"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alternatywne ikony"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Альтернативные значки"
           }
         },
         "tr" : {
@@ -1523,10 +1865,22 @@
             "value" : "멋진 애플리케이션"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuostabi programa"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inne świetne aplikacje"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Замечательное приложение"
           }
         },
         "tr" : {
@@ -1594,10 +1948,22 @@
             "value" : "앱 기능"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programos funkcijos"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Funkcje aplikacji"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Возможности приложения"
           }
         },
         "tr" : {
@@ -1641,10 +2007,22 @@
             "value" : "앱 아이콘"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programos piktograma"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ikona aplikacji"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Значок приложения"
           }
         },
         "tr" : {
@@ -1724,6 +2102,12 @@
             "value" : "외관"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Išvaizda"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1801,10 +2185,22 @@
             "value" : "앱ID 이름"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AppID pavadinimas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nazwa AppID"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Название AppID"
           }
         },
         "tr" : {
@@ -1872,10 +2268,22 @@
             "value" : "압축 및 보관"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Archyvavimas ir glaudinimas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Archiwizacja i kompresja"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Архивация и сжатие"
           }
         },
         "tr" : {
@@ -1956,6 +2364,12 @@
             "value" : "잘못된 비밀번호"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neteisingas slaptažodis"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2021,10 +2435,22 @@
             "value" : " 최고"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geriausias"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Najlepszy"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Максимальное"
           }
         },
         "tr" : {
@@ -2104,6 +2530,12 @@
             "value" : "큰 설명"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Didelis aprašymas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2181,10 +2613,22 @@
             "value" : "번들"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paketas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Paczka"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бандл"
           }
         },
         "tr" : {
@@ -2240,10 +2684,22 @@
             "value" : "기본적으로 앱의 현지화된 제목은 변경되지 않지만, 이 옵션을 선택하면 기본 설정이 무시됩니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pagal numatytuosius nustatymus lokalizuoti programos pavadinimai nekeičiami, tačiau ši parinktis tai pakeičia."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Domyślnie tłumaczone tytuły aplikacji nie będą zmieniane, jednak ta opcja to nadpisuje."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "По умолчанию локализованные названия приложения не изменяются, но эта опция переопределяет их."
           }
         },
         "tr" : {
@@ -2323,6 +2779,12 @@
             "value" : "취소"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atšaukti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2332,7 +2794,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Отменить"
+            "value" : "Отмена"
           }
         },
         "tr" : {
@@ -2376,10 +2838,22 @@
             "value" : "카테고리"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategorija"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kategoria"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Категория"
           }
         },
         "tr" : {
@@ -2447,10 +2921,22 @@
             "value" : "인증서"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sertifikatas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Certyfikat"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сертификат"
           }
         },
         "tr" : {
@@ -2531,6 +3017,12 @@
             "value" : "인증서"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sertifikatai"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2584,10 +3076,22 @@
             "value" : "인증서가 성공적으로 업데이트되었습니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sertifikatai sėkmingai atnaujinti."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Certyfikaty zaktualizowano pomyślnie."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сертификаты успешно обновлены."
           }
         },
         "tr" : {
@@ -2655,10 +3159,22 @@
             "value" : "변경"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keisti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zmień"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изменить"
           }
         },
         "tr" : {
@@ -2696,10 +3212,22 @@
             "value" : "표시이름 변경"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keisti slapyvardį"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zmień nazwę"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изменить псевдоним"
           }
         },
         "tr" : {
@@ -2725,10 +3253,22 @@
             "value" : "Check for Updates"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tikrinti, ar yra naujinimų"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sprawdź aktualizacje"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверить обновления"
           }
         }
       }
@@ -2766,10 +3306,22 @@
             "value" : "리보크 확인"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tikrinti atšaukimą"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sprawdź czy odwołany"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверить отзыв"
           }
         },
         "tr" : {
@@ -2838,10 +3390,22 @@
             "value" : "파일에서 선택하기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasirinkti iš Failų"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wybierz z plików"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать из «Файлов»"
           }
         },
         "tr" : {
@@ -2910,10 +3474,22 @@
             "value" : "사진에서 선택하기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasirinkti iš Nuotraukų"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wybierz ze zdjęć"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать из «Фото»"
           }
         },
         "tr" : {
@@ -2981,10 +3557,22 @@
             "value" : "닫기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uždaryti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zamknij"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрыть"
           }
         },
         "tr" : {
@@ -3040,10 +3628,22 @@
             "value" : "완료됨"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baigta"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zakończono"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Завершено"
           }
         },
         "tr" : {
@@ -3112,10 +3712,22 @@
             "value" : "압축 수준"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glaudinimo lygis"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poziom kompresji"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уровень сжатия"
           }
         },
         "tr" : {
@@ -3171,10 +3783,22 @@
             "value" : "앱 설치 방식, zip 압축 수준 및 앱에 대한 맞춤 수정 사항을 구성합니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konfigūruokite programų diegimo būdą, ZIP glaudinimo lygius ir pasirinktines programų modifikacijas."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skonfiguruj sposób instalacji aplikacji, poziom kompresji ZIP i niestandardowe modyfikacje aplikacji."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройте способ установки приложений, уровни ZIP-сжатия и пользовательские модификации."
           }
         },
         "tr" : {
@@ -3254,6 +3878,12 @@
             "value" : "복사"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopijuoti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3319,10 +3949,22 @@
             "value" : "다운로드 URL 복사"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopijuoti atsisiuntimo URL"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopiuj URL do pobrania"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Копировать ссылки для загрузки"
           }
         },
         "tr" : {
@@ -3402,6 +4044,12 @@
             "value" : "크레딧"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kūrėjai"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3455,10 +4103,22 @@
             "value" : "맟춤 테마 색상"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasirinktinė temos spalva"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Niestandardowy Kolor Motywu"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Свой цвет темы"
           }
         },
         "tr" : {
@@ -3526,10 +4186,22 @@
             "value" : "맞춤 설정"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pritaikymas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dostosowanie"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Персонализация"
           }
         },
         "tr" : {
@@ -3579,10 +4251,22 @@
             "value" : "다크"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamsi"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ciemny"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тёмная"
           }
         },
         "tr" : {
@@ -3650,10 +4334,22 @@
             "value" : "날짜"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Data"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дата"
           }
         },
         "tr" : {
@@ -3733,10 +4429,22 @@
             "value" : "날짜 추가됨"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pridėjimo data"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Data dodania"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дата добавления"
           }
         },
         "tr" : {
@@ -3816,6 +4524,12 @@
             "value" : "기본"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Numatytasis"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3881,10 +4595,22 @@
             "value" : "앱의 기본 스타일, 설명만 포함"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Numatytasis programos stilius, apima tik paantraštę."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Domyślny styl aplikacji, zawiera tylko fragment opisu."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Стиль приложения по умолчанию, содержит только подзаголовок."
           }
         },
         "tr" : {
@@ -3964,6 +4690,12 @@
             "value" : "삭제"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ištrinti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4029,10 +4761,22 @@
             "value" : "서명 후 삭제"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ištrinti po pasirašymo"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usuń po podpisaniu"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалять после подписи"
           }
         },
         "tr" : {
@@ -4076,10 +4820,22 @@
             "value" : "설명"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aprašymas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opis"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Описание"
           }
         },
         "tr" : {
@@ -4123,10 +4879,22 @@
             "value" : "개발자"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kūrėjas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Developer"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разработчик"
           }
         },
         "tr" : {
@@ -4158,10 +4926,22 @@
             "value" : "Disable Liquid Glass"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Išjungti Liquid Glass"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wyłącz Liquid Glass"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отключить Liquid Glass"
           }
         }
       }
@@ -4221,6 +5001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "닫기"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atmesti"
           }
         },
         "pl" : {
@@ -4300,6 +5086,12 @@
             "value" : "표시 이름"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rodomi pavadinimai"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4340,6 +5132,18 @@
             "state" : "translated",
             "value" : "Do you want to download and install this file?"
           }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ar norite atsisiųsti ir įdiegti šį failą?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загрузить и установить этот файл?"
+          }
         }
       }
     },
@@ -4370,10 +5174,22 @@
             "value" : "인증서를 외부 앱으로 내보내시겠습니까? 해당 앱은 귀하의 인증서를 사용하여 앱에 서명할 수 있게 됩니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ar norite eksportuoti savo sertifikatą į išorinę programą? Ta programa galės pasirašyti programas naudodama jūsų sertifikatą."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Czy chcesz wyeksportować swój certyfikat do zewnętrznej aplikacji? Ta aplikacja będzie mogła podpisywać aplikacje za pomocą Twojego certyfikatu."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Экспортировать сертификат во внешнее приложение? Оно сможет подписывать приложения вашим сертификатом."
           }
         },
         "tr" : {
@@ -4451,6 +5267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "후원"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paaukoti"
           }
         },
         "pl" : {
@@ -4543,6 +5365,12 @@
             "value" : "후원"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aukos"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4615,10 +5443,22 @@
             "value" : "StosVPN 다운로드"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atsisiųsti StosVPN"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pobierz StosVPN"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скачать StosVPN"
           }
         },
         "tr" : {
@@ -4650,10 +5490,22 @@
             "value" : "Download Update"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atsisiųsti naujinimą"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pobierz aktualizację"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скачать обновление"
           }
         }
       }
@@ -4709,10 +5561,22 @@
             "value" : "Dylibs"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dylib"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dylibs"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dylib"
           }
         },
         "tr" : {
@@ -4756,10 +5620,22 @@
             "value" : "역동적 아이콘"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dinaminės piktogramos"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dynamiczne Ikony"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Динамические значки"
           }
         },
         "tr" : {
@@ -4815,10 +5691,22 @@
             "value" : "Liquid Glass 활성화"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Įjungti Liquid Glass"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Włącz Liquid Glass"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Включить Liquid Glass"
           }
         },
         "tr" : {
@@ -4886,10 +5774,22 @@
             "value" : "어떤 보호 기능을 활성화하든, 서명하는 앱의 번들 식별자에 임의의 문자열이 추가됩니다. 이는 사용자의 Apple 계정이 Apple 측에서 의심 대상으로 표시되지 않도록 하기 위함입니다. 하지만 서명 서비스를 이용할 경우에는 이 사항을 무시해도 됩니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Įjungus bet kurią apsaugą, prie pasirašomų programų paketo identifikatorių pridedama atsitiktinė eilutė, kad „Apple“ nepažymėtų jūsų Apple ID. Naudojant pasirašymo paslaugą to galite nepaisyti."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Włączenie ochrony doda losowy ciąg do identyfikatorów aplikacji, aby uniknąć oznaczenia przez Apple. Przy użyciu usługi podpisującej można to zignorować."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "При включении любой защиты к идентификаторам бандлов подписываемых приложений добавляется случайная строка, чтобы Apple не пометила ваш Apple ID. При использовании сервиса подписи это можно игнорировать."
           }
         },
         "tr" : {
@@ -4946,10 +5846,22 @@
             "value" : "%@를 즐기시고 있나요?"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Patinka %@?"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podoba Ci się %@?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нравится %@?"
           }
         },
         "tr" : {
@@ -5017,10 +5929,22 @@
             "value" : "검증을 시작하려면 URL를 입력하세요."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Įveskite URL, kad pradėtumėte tikrinimą."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wprowadź adres URL, aby rozpocząć weryfikację."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите URL, чтобы начать проверку."
           }
         },
         "tr" : {
@@ -5100,6 +6024,12 @@
             "value" : "비밀번호를 입력하세요"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Įveskite slaptažodį"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5165,10 +6095,22 @@
             "value" : "소스 URL를 입력하세요"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Įveskite šaltinio URL"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podaj adres"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Введите URL источника"
           }
         },
         "tr" : {
@@ -5248,6 +6190,12 @@
             "value" : "개인 키에 설정된 비밀번호를 입력하세요. 비밀번호가 필요하지 않은 경우에는 비워 두세요."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Įveskite privataus rakto slaptažodį. Palikite tuščią, jei slaptažodžio nereikia."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5257,7 +6205,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Введите пароль, связанный с закрытым ключом, оставьте поле пустым, если пароль не требуется."
+            "value" : "Введите пароль закрытого ключа. Оставьте поле пустым, если пароль не требуется."
           }
         },
         "tr" : {
@@ -5325,10 +6273,22 @@
             "value" : "권한"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entitlements"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uprawnienia"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entitlements"
           }
         },
         "tr" : {
@@ -5384,10 +6344,22 @@
             "value" : "오류"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klaida"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Błąd"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ошибка"
           }
         },
         "tr" : {
@@ -5455,10 +6427,22 @@
             "value" : "실행 파일"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vykdomasis failas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dodatkowe biblioteki"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Исполняемый файл"
           }
         },
         "tr" : {
@@ -5526,10 +6510,22 @@
             "value" : "기존 Dylib"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esami dylib"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Istniejące dylibs"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Существующие dylib"
           }
         },
         "tr" : {
@@ -5585,10 +6581,22 @@
             "value" : "실험"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksperimentai"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eksperymentalne"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Эксперименты"
           }
         },
         "tr" : {
@@ -5660,6 +6668,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "만료됨"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nebegalioja"
           }
         },
         "pl" : {
@@ -5739,10 +6753,22 @@
             "value" : "만료"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baigia galioti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wygasa"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Истекает"
           }
         },
         "tr" : {
@@ -5811,10 +6837,22 @@
             "value" : "내보내기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksportuoti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eksportuj"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Экспорт"
           }
         },
         "tr" : {
@@ -5864,10 +6902,22 @@
             "value" : "인증서 내보내기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksportuoti sertifikatą"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eksportuj certyfikat"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Экспортировать сертификат"
           }
         },
         "tr" : {
@@ -5935,10 +6985,22 @@
             "value" : "다운로드에 실패했습니다, 인터넷 연결 상태를 확인하고 다시 시도하세요."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nepavyko atsisiųsti. Patikrinkite interneto ryšį ir bandykite dar kartą."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nie udało się pobrać. Sprawdź połączenie z internetem i spróbuj ponownie."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось загрузить. Проверьте подключение к интернету и повторите попытку."
           }
         },
         "tr" : {
@@ -5994,10 +7056,22 @@
             "value" : "추천"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rekomenduojami"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Polecane"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Рекомендуемые"
           }
         },
         "tr" : {
@@ -6065,10 +7139,22 @@
             "value" : "기능"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Funkcijos"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Funkcje"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Возможности"
           }
         },
         "tr" : {
@@ -6137,6 +7223,12 @@
             "value" : "파일 공유"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failų bendrinimas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6146,7 +7238,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Разрешить просмотр документов"
+            "value" : "Общий доступ к файлам"
           }
         },
         "tr" : {
@@ -6214,10 +7306,22 @@
             "value" : "파일"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failai"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pliki"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Файлы"
           }
         },
         "tr" : {
@@ -6285,10 +7389,22 @@
             "value" : "필터 기준"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filtruoti pagal"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Filtruj według"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фильтр"
           }
         },
         "tr" : {
@@ -6356,10 +7472,22 @@
             "value" : "강제 현지화"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Priverstinė lokalizacija"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wymuś lokalizację"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Принудительная локализация"
           }
         },
         "tr" : {
@@ -6427,10 +7555,22 @@
             "value" : "프레임워크"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karkasai"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Biblioteki"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фреймворки"
           }
         },
         "tr" : {
@@ -6498,10 +7638,22 @@
             "value" : "프레임워크 & 플러그인"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karkasai ir papildiniai"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Biblioteki i wtyczki"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фреймворки и плагины"
           }
         },
         "tr" : {
@@ -6569,10 +7721,22 @@
             "value" : "완전한 로컬"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visiškai vietinis"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "W pełni lokalnie"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Полностью локально"
           }
         },
         "tr" : {
@@ -6628,10 +7792,22 @@
             "value" : "게임 모드"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Žaidimo režimas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tryb Gry"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Игровой режим"
           }
         },
         "tr" : {
@@ -6705,6 +7881,12 @@
             "value" : "기본"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bendra"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6758,10 +7940,22 @@
             "value" : "받기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gauti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pobierz"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Получить"
           }
         },
         "tr" : {
@@ -6829,10 +8023,22 @@
             "value" : "후원을 통해 저희의 비공개 디스코드 서버에 가입하시면, 향후 업데이트, 베타 버전, 그리고 여러분의 이용 경험을 더욱 향상시킬 수 있는 방안에 대해 논의하는 자리에 참여하실 수 있습니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paaukokite ir gaukite prieigą prie mūsų slapto Discord, kur kalbame apie būsimus naujinimus, beta versijas ir galimus būdus pagerinti jūsų patirtį."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uzyskaj dostęp do naszego prywatnego Discorda poprzez wsparcie, gdzie rozmawiamy o przyszłych aktualizacjach, wersjach beta i możliwościach poprawy doświadczeń."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пожертвуйте и получите доступ к нашему закрытому Discord, где мы обсуждаем будущие обновления, бета-версии и возможные способы улучшить ваш опыт."
           }
         },
         "tr" : {
@@ -6901,10 +8107,22 @@
             "value" : "정보 보기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gauti informaciją"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pokaż informacje"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Информация"
           }
         },
         "tr" : {
@@ -6960,10 +8178,22 @@
             "value" : "첫 번째 저장소를 추가하여 시작하세요."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pradėkite pridėdami pirmąją saugyklą."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zacznij od dodania pierwszego repozytorium."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начните с добавления первого репозитория."
           }
         },
         "tr" : {
@@ -7019,10 +8249,22 @@
             "value" : "첫 번째 IPA 파일을 가져와 시작하세요."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pradėkite importuodami pirmąjį IPA failą."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zacznij od importu Twojego pierwszego pliku IPA."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начните с импорта первого IPA-файла."
           }
         },
         "tr" : {
@@ -7078,10 +8320,22 @@
             "value" : "첫 번째 인증서를 가져와서 서명을 시작하세요."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Norėdami pradėti pasirašyti, importuokite pirmąjį sertifikatą."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozpocznij podpisywanie od zaimportowania pierwszego certyfikatu."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чтобы начать подписывать, импортируйте первый сертификат."
           }
         },
         "tr" : {
@@ -7161,6 +8415,12 @@
             "value" : "GitHub 저장소"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub saugykla"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7170,7 +8430,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "GitHub репозиторий"
+            "value" : "Репозиторий GitHub"
           }
         },
         "tr" : {
@@ -7226,10 +8486,22 @@
             "value" : "우리의 GitHub에서 별을 주세요!"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apsilankykite mūsų GitHub ir duokite mums žvaigždutę!"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odwiedź nasze GitHub i zostaw gwiazdkę!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Загляните на наш GitHub и поставьте звезду!"
           }
         },
         "tr" : {
@@ -7297,7 +8569,19 @@
             "value" : "Heartbeat"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heartbeat"
+          }
+        },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heartbeat"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Heartbeat"
@@ -7368,10 +8652,22 @@
             "value" : "도움"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pagalba"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pomoc"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Справка"
           }
         },
         "tr" : {
@@ -7439,10 +8735,22 @@
             "value" : "숨겨진"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paslėpta"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ukryte"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скрыто"
           }
         },
         "tr" : {
@@ -7522,6 +8830,12 @@
             "value" : "식별자"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Identifikatorius"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7599,10 +8913,22 @@
             "value" : "식별자 접두사"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Identifikatoriaus priešdėlis"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prefiks identyfikatora"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Префикс идентификатора"
           }
         },
         "tr" : {
@@ -7670,10 +8996,22 @@
             "value" : "식별자"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Identifikatoriai"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Identyfikatory"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Идентификаторы"
           }
         },
         "tr" : {
@@ -7723,7 +9061,19 @@
             "value" : "idevice"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "idevice"
+          }
+        },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "idevice"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "idevice"
@@ -7770,10 +9120,22 @@
             "value" : "이 설치 방법은 숙련된 사용자만을 대상으로 합니다!\n\n이 방법을 사용하려면 VPN과 PC에서 가져온 페어링 파일이 필요합니다.\n\n서버 설치 방법으로 되돌아가는 것이 좋습니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Šis diegimo metodas skirtas tik pažengusiems naudotojams!\n\nReikia VPN ir suporavimo failo iš kompiuterio.\n\nRekomenduojame grįžti prie diegimo per serverį."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ta metoda instalacji jest przeznaczona tylko dla zaawansowanych użytkowników!\n\nWymaga ona VPN i pliku parowania z komputera.\n\nZaleca się powrót do metody instalacji przez serwer."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Этот способ установки предназначен только для опытных пользователей!\n\nДля него нужны VPN и файл сопряжения с компьютера.\n\nРекомендуем вернуться к установке через сервер."
           }
         },
         "tr" : {
@@ -7829,10 +9191,22 @@
             "value" : "앱 내에서 문제가 발생할 경우 GitHub 저장소를 통해 이슈를 등록해 주세요. 이슈를 등록할 때는 자세한 정보를 반드시 포함해 주세요."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jei programoje kils problemų, praneškite apie jas GitHub saugykloje. Pateikdami pranešimą nurodykite išsamią informaciją."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeśli wystąpią jakiekolwiek problemy w aplikacji, zgłoś je za pośrednictwem repozytorium GitHub. Podczas zgłaszania problemu upewnij się, że podajesz szczegółowe informacje."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Если в приложении возникнут проблемы, сообщите о них в репозитории GitHub. При отправке обращения укажите подробную информацию."
           }
         },
         "tr" : {
@@ -7913,6 +9287,12 @@
             "value" : "가져오기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importuoti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7990,10 +9370,22 @@
             "value" : "인증서 가져오기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importuoti sertifikato failą"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importuj plik certyfikatu"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Импортировать файл сертификата"
           }
         },
         "tr" : {
@@ -8062,10 +9454,22 @@
             "value" : "파일에서 가져오기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importuoti iš Failų"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importuj z plików"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Импорт из «Файлов»"
           }
         },
         "tr" : {
@@ -8134,10 +9538,22 @@
             "value" : "URL에서 가져오기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importuoti iš URL"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importuj z adresu URL"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Импорт по URL"
           }
         },
         "tr" : {
@@ -8205,10 +9621,22 @@
             "value" : "페어링 파일 가져오기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importuoti suporavimo failą"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importuj plik parowania"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Импортировать файл сопряжения"
           }
         },
         "tr" : {
@@ -8276,10 +9704,22 @@
             "value" : "프로비저닝 파일 가져오기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importuoti provisioning failą"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Importuj plik provisioning"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Импортировать файл provisioning"
           }
         },
         "tr" : {
@@ -8347,10 +9787,22 @@
             "value" : "가져옴"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importuota"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zaimportowane"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Импортировано"
           }
         },
         "tr" : {
@@ -8418,10 +9870,22 @@
             "value" : "정보"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informacija"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Informacje"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Инфо"
           }
         },
         "tr" : {
@@ -8465,10 +9929,22 @@
             "value" : "정보"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informacija"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Informacje"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Информация"
           }
         },
         "tr" : {
@@ -8512,10 +9988,22 @@
             "value" : "확장 기능에 주입"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Įterpti į plėtinius"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Załaduj do rozszerzeń"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Внедрять в расширения"
           }
         },
         "tr" : {
@@ -8571,10 +10059,22 @@
             "value" : "주입 폴더"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Įterpimo aplankas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Folder iniekcji"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Папка внедрения"
           }
         },
         "tr" : {
@@ -8636,10 +10136,22 @@
             "value" : "주입 경로"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Įterpimo kelias"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ścieżka iniekcji"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Путь внедрения"
           }
         },
         "tr" : {
@@ -8719,6 +10231,12 @@
             "value" : "설치"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Įdiegti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8778,10 +10296,22 @@
             "value" : "서명 후 설치"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Įdiegti po pasirašymo"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zainstaluj po podpisaniu"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Устанавливать после подписи"
           }
         },
         "tr" : {
@@ -8813,10 +10343,22 @@
             "value" : "Install Current Version"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Įdiegti dabartinę versiją"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zainstaluj bieżącą wersję"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Установить текущую версию"
           }
         }
       }
@@ -8854,10 +10396,22 @@
             "value" : "설치"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diegimas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instalacja"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Установка"
           }
         },
         "tr" : {
@@ -8925,10 +10479,22 @@
             "value" : "설치 유형"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diegimo tipas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Typ instalacji"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Способ установки"
           }
         },
         "tr" : {
@@ -8984,10 +10550,22 @@
             "value" : "설치 중"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diegiama"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instalowanie"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Установка"
           }
         },
         "tr" : {
@@ -9055,10 +10633,22 @@
             "value" : "iPad 전체 화면"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPad per visą ekraną"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "iPad pełny ekran"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPad на весь экран"
           }
         },
         "tr" : {
@@ -9127,6 +10717,12 @@
             "value" : "iTunes 파일 공유"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iTunes failų bendrinimas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9136,7 +10732,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Разрешить общий доступ через iTunes"
+            "value" : "Общий доступ к файлам через iTunes"
           }
         },
         "tr" : {
@@ -9186,10 +10782,22 @@
             "value" : "Discord에 참여하세요!"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prisijunkite prie mūsų Discord"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dołącz do nas na Discordzie"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Присоединяйтесь к нам в Discord"
           }
         },
         "tr" : {
@@ -9245,10 +10853,22 @@
             "value" : "저장소 설정 방법에 대해 자세히 알아보세요..."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sužinokite daugiau, kaip sukurti saugyklą…"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dowiedz się więcej o tym, jak skonfigurować repozytorium..."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Узнайте, как настроить репозиторий…"
           }
         },
         "tr" : {
@@ -9286,10 +10906,22 @@
             "value" : "적게"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mažiau"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mniej"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Меньше"
           }
         },
         "tr" : {
@@ -9358,10 +10990,22 @@
             "value" : "라이브러리"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biblioteka"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Biblioteka"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Библиотека"
           }
         },
         "tr" : {
@@ -9429,10 +11073,22 @@
             "value" : "라이브러리 셀 외관"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliotekos elementų išvaizda"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wygląd komórki biblioteki"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вид ячеек библиотеки"
           }
         },
         "tr" : {
@@ -9482,10 +11138,22 @@
             "value" : "라이트"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Šviesi"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jasny"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Светлая"
           }
         },
         "tr" : {
@@ -9515,6 +11183,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Merge Entitlements"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sujungti entitlements"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Объединять entitlements"
           }
         }
       }
@@ -9565,10 +11245,22 @@
             "value" : "최소 요구 사항"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minimalus reikalavimas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Minimalne wymagania"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Минимальная версия"
           }
         },
         "tr" : {
@@ -9636,10 +11328,22 @@
             "value" : "기타"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Įvairūs"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Różne"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разное"
           }
         },
         "tr" : {
@@ -9707,10 +11411,22 @@
             "value" : "수정"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keisti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Modyfikuj"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Изменить"
           }
         },
         "tr" : {
@@ -9754,10 +11470,22 @@
             "value" : "더"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daugiau"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Więcej"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ещё"
           }
         },
         "tr" : {
@@ -9837,10 +11565,22 @@
             "value" : "이름"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pavadinimas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nazwa"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Название"
           }
         },
         "tr" : {
@@ -9908,10 +11648,22 @@
             "value" : "새"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nauja"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nowy"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Новое"
           }
         },
         "tr" : {
@@ -9991,6 +11743,12 @@
             "value" : "새로운 인증서"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naujas sertifikatas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10000,7 +11758,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Добавить сертификаты"
+            "value" : "Новый сертификат"
           }
         },
         "tr" : {
@@ -10069,10 +11827,22 @@
             "value" : "표시이름 (선택 사항)"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slapyvardis (neprivaloma)"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Własna nazwa (opcjonalnie)"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Псевдоним (необязательно)"
           }
         },
         "tr" : {
@@ -10128,10 +11898,22 @@
             "value" : "앱 없음"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nėra programų"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brak aplikacji"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет приложений"
           }
         },
         "tr" : {
@@ -10199,10 +11981,22 @@
             "value" : "인증서 없음"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nėra sertifikato"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brak certyfikatu"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет сертификата"
           }
         },
         "tr" : {
@@ -10258,10 +12052,22 @@
             "value" : "인증서 없음"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nėra sertifikatų"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brak certyfikatów"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет сертификатов"
           }
         },
         "tr" : {
@@ -10305,10 +12111,22 @@
             "value" : "나열된 권한 없음"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entitlements nenurodyti."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brak uprawnień do wyświetlenia."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entitlements не указаны."
           }
         },
         "tr" : {
@@ -10370,10 +12188,22 @@
             "value" : "파일이 선택되지 않았습니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failai nepasirinkti."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nie wybrano plików."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Файлы не выбраны."
           }
         },
         "tr" : {
@@ -10429,10 +12259,22 @@
             "value" : "프레임워크나 플러그인을 찾을 수 없습니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karkasų ar papildinių nerasta."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nie znaleziono żadnych bibliotek ani wtyczek."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фреймворки и плагины не найдены."
           }
         },
         "tr" : {
@@ -10488,10 +12330,22 @@
             "value" : "아이콘을 찾을 수 없습니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piktogramų nerasta."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nie znaleziono żadnych ikon"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Значки не найдены."
           }
         },
         "tr" : {
@@ -10559,10 +12413,22 @@
             "value" : "페어링 파일을 찾을 수 없습니다, 불러와 주세요."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suporavimo failo nerasta, importuokite jį."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nie znaleziono pliku parowania, zaimportuj go."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Файл сопряжения не найден, импортируйте его."
           }
         },
         "tr" : {
@@ -10606,10 +12472,22 @@
             "value" : "개인정보 권한이 목록에 없습니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privatumo leidimų nenurodyta."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brak wymienionych uprawnień prywatności."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разрешения конфиденциальности не указаны."
           }
         },
         "tr" : {
@@ -10665,10 +12543,22 @@
             "value" : "저장소 없음"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nėra saugyklų"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brak Repozytoriów"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет репозиториев"
           }
         },
         "tr" : {
@@ -10712,10 +12602,22 @@
             "value" : "복사할 소스 없음"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nėra šaltinių kopijuoti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brak źródeł do skopiowania"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет источников для копирования"
           }
         },
         "tr" : {
@@ -10771,10 +12673,22 @@
             "value" : "없음"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nėra"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brak"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет"
           }
         },
         "tr" : {
@@ -10854,6 +12768,12 @@
             "value" : "좋아요"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gerai"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10931,10 +12851,22 @@
             "value" : "localhost 주소만 사용하세요"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naudoti tik localhost adresą"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Używaj tylko adresu localhost"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Использовать только адрес localhost"
           }
         },
         "tr" : {
@@ -11002,10 +12934,22 @@
             "value" : "열기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atidaryti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otwórz"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть"
           }
         },
         "tr" : {
@@ -11061,10 +13005,22 @@
             "value" : "소스가 소개되기를 원하신다면 GitHub에서 [이슈](https://github.com/khcrysalis/Feather/issues)를 등록해 주세요."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sukurkite [pranešimą](https://github.com/khcrysalis/Feather/issues) GitHub, jei norite, kad jūsų šaltinis būtų rekomenduojamas."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otwórz [issue](https://github.com/khcrysalis/Feather/issues) na GitHubie, jeśli chcesz, aby Twoje źródło zostało wyróżnione."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создайте [обращение](https://github.com/khcrysalis/Feather/issues) на GitHub, если хотите, чтобы ваш источник попал в рекомендуемые."
           }
         },
         "tr" : {
@@ -11132,10 +13088,22 @@
             "value" : "보관 열기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atidaryti archyvus"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otwórz archiwa"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть архивы"
           }
         },
         "tr" : {
@@ -11203,10 +13171,22 @@
             "value" : "인증서 열기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atidaryti sertifikatus"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otwórz certyfikaty"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть сертификаты"
           }
         },
         "tr" : {
@@ -11274,10 +13254,22 @@
             "value" : "문서 열기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atidaryti dokumentus"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otwórz dokumenty"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть документы"
           }
         },
         "tr" : {
@@ -11357,6 +13349,12 @@
             "value" : "파일에서 열기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atidaryti Failuose"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11366,7 +13364,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Открыть в Файлах"
+            "value" : "Открыть в «Файлах»"
           }
         },
         "tr" : {
@@ -11422,10 +13420,22 @@
             "value" : "패키징"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakavimas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tworzenie paczki"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Упаковка"
           }
         },
         "tr" : {
@@ -11493,10 +13503,22 @@
             "value" : "페어링 파일 가이드"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suporavimo failo vadovas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Przewodnik po pliku parowania"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Инструкция по файлу сопряжения"
           }
         },
         "tr" : {
@@ -11576,6 +13598,12 @@
             "value" : "비밀번호"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slaptažodis"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11629,10 +13657,22 @@
             "value" : "권한"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leidimai"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pozwolenia"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разрешения"
           }
         },
         "tr" : {
@@ -11700,10 +13740,22 @@
             "value" : "플랫폼"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Platforma"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Platforma"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Платформа"
           }
         },
         "tr" : {
@@ -11784,6 +13836,12 @@
             "value" : "비밀번호를 확인하고 다시 시도해 주세요."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Patikrinkite slaptažodį ir bandykite dar kartą."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11793,7 +13851,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Пожалуйста, проверьте пароль и попробуйте снова."
+            "value" : "Проверьте пароль и повторите попытку."
           }
         },
         "tr" : {
@@ -11861,10 +13919,22 @@
             "value" : "설정에서 유요한 인증서를 불러와 주세요."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eikite į nustatymus ir importuokite galiojantį sertifikatą"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Przejdź do ustawień i zaimportuj poprawny certyfikat"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите в настройки и импортируйте действующий сертификат"
           }
         },
         "tr" : {
@@ -11920,10 +13990,22 @@
             "value" : "서명 후"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Po pasirašymo"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Po podpisaniu"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "После подписи"
           }
         },
         "tr" : {
@@ -11991,6 +14073,12 @@
             "value" : "PPQ 보호"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apsauga nuo PPQ"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12000,7 +14088,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Включить защиту"
+            "value" : "Защита от PPQ"
           }
         },
         "tr" : {
@@ -12044,10 +14132,22 @@
             "value" : "PPQ 검사"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PPQ patikra"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Weryfikacja PPQ"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проверка PPQ"
           }
         },
         "tr" : {
@@ -12116,10 +14216,22 @@
             "value" : "이전 버전"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ankstesnės versijos"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poprzednie wersje"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Предыдущие версии"
           }
         },
         "tr" : {
@@ -12169,10 +14281,22 @@
             "value" : "Pro Motion"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ProMotion"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro Motion"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ProMotion"
           }
         },
         "tr" : {
@@ -12228,10 +14352,22 @@
             "value" : "계속"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tęsti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Przystąp"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить"
           }
         },
         "tr" : {
@@ -12306,10 +14442,22 @@
             "value" : "속성"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Savybės"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Właściwości"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Свойства"
           }
         },
         "tr" : {
@@ -12377,10 +14525,22 @@
             "value" : "보호"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apsauga"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ochrona"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Защита"
           }
         },
         "tr" : {
@@ -12448,10 +14608,22 @@
             "value" : "모든 기기 프로비저닝"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visi įrenginiai provisioning"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Provisionuj wszystkie urządzenia"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Все устройства в provisioning"
           }
         },
         "tr" : {
@@ -12519,10 +14691,22 @@
             "value" : "프로비저닝된 기기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Provisioning įrenginiai"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Provisionowane urządzenia"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Устройства в provisioning"
           }
         },
         "tr" : {
@@ -12590,10 +14774,22 @@
             "value" : "재서명"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasirašyti iš naujo"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podpisz ponownie"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подписать заново"
           }
         },
         "tr" : {
@@ -12649,10 +14845,22 @@
             "value" : "준비"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paruošta"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gotowe"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готово"
           }
         },
         "tr" : {
@@ -12720,10 +14928,22 @@
             "value" : "제거"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Šalinimas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usuwanie"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удаление"
           }
         },
         "tr" : {
@@ -12791,10 +15011,22 @@
             "value" : "베타 이용 권한을 획득한 후, 이와 같은 성가신 알림을 제거하세요!"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atsikratykite tokių erzinančių įspėjimų gavę prieigą prie beta versijos!"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usuń irytujące alerty jak ten po uzyskaniu dostępu do bety!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Избавьтесь от таких надоедливых уведомлений, получив доступ к бета-версии!"
           }
         },
         "tr" : {
@@ -12862,6 +15094,12 @@
             "value" : "프로비저닝 제거"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pašalinti provisioning failą"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12871,7 +15109,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Удалить Provisioning File"
+            "value" : "Удалить файл provisioning"
           }
         },
         "tr" : {
@@ -12939,10 +15177,22 @@
             "value" : "이 알림 제거"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pašalinti šį įspėjimą"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usuń ten alert"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Убрать это уведомление"
           }
         },
         "tr" : {
@@ -13010,6 +15260,12 @@
             "value" : "URL 스키마 제거"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pašalinti URL schemą"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13019,7 +15275,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Удалить URLScheme"
+            "value" : "Удалить URL-схему"
           }
         },
         "tr" : {
@@ -13087,10 +15343,22 @@
             "value" : "Watch 자리표시자 제거"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pašalinti Watch vietos rezervavimo ženklą"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usuń placeholder Watch"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить заглушку Watch"
           }
         },
         "tr" : {
@@ -13140,10 +15408,22 @@
             "value" : "프로비저닝 파일을 제거하면 서명 시 ‘mobileprovision’ 파일이 애플리케이션 내에 포함되지 않게 되어, 탐지를 방지하는 데 도움이 됩니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pašalinus provisioning failą, pasirašant mobileprovision failas nebus įterptas į programą, o tai padeda išvengti aptikimo."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usunięcie pliku provisioning spowoduje, że plik mobileprovision nie będzie osadzony w aplikacji podczas podpisywania, co zapobiegnie jakiemukolwiek wykryciu."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удаление файла provisioning исключит встраивание файла mobileprovision в приложение при подписи, что помогает избежать обнаружения."
           }
         },
         "tr" : {
@@ -13199,10 +15479,22 @@
             "value" : "Substrate를 ElleKit으로 교체"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakeisti Substrate į ElleKit"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zastąp Substrate przez ElleKit"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заменить Substrate на ElleKit"
           }
         },
         "tr" : {
@@ -13268,6 +15560,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "교체"
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakeitimas"
           }
         },
         "pl" : {
@@ -13347,10 +15645,22 @@
             "value" : "저장소"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saugyklos"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Repozytoria"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Репозитории"
           }
         },
         "tr" : {
@@ -13406,10 +15716,22 @@
             "value" : "이미 추가된 저장소입니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saugykla jau pridėta."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Repozytorium jest obecnie dodane."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Репозиторий уже добавлен."
           }
         },
         "tr" : {
@@ -13489,6 +15811,12 @@
             "value" : "재설정"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atstatyti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13498,7 +15826,7 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Сброс"
+            "value" : "Сбросить"
           }
         },
         "tr" : {
@@ -13554,10 +15882,22 @@
             "value" : "모두 재설정"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atstatyti viską"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resetuj wszystko"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить всё"
           }
         },
         "tr" : {
@@ -13613,10 +15953,22 @@
             "value" : "인증서 초기화"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atstatyti sertifikatus"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resetuj certyfikaty"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить сертификаты"
           }
         },
         "tr" : {
@@ -13672,10 +16024,22 @@
             "value" : "가져온 앱 초기화"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atstatyti importuotas programas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resetuj zaimportowane aplikacje"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить импортированные приложения"
           }
         },
         "tr" : {
@@ -13731,10 +16095,22 @@
             "value" : "네트워크 캐시 초기화"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atstatyti tinklo talpyklą"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resetuj pamięć podręczną sieci"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить сетевой кэш"
           }
         },
         "tr" : {
@@ -13790,10 +16166,22 @@
             "value" : "설정 초기화"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atstatyti nustatymus"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resetuj ustawienia"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить настройки"
           }
         },
         "tr" : {
@@ -13849,10 +16237,22 @@
             "value" : "서명된 앱 초기화"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atstatyti pasirašytas programas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resetuj podpisane aplikacje"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить подписанные приложения"
           }
         },
         "tr" : {
@@ -13908,10 +16308,22 @@
             "value" : "소스 초기화"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atstatyti šaltinius"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resetuj źródła"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить источники"
           }
         },
         "tr" : {
@@ -13967,10 +16379,22 @@
             "value" : "애플리케이션 소스, 인증서, 앱 및 일반 콘텐츠를 초기화합니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atstato programos šaltinius, sertifikatus, programas ir kitą bendrą turinį."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zresetuj źródła aplikacji, certyfikaty, aplikacje i ogólną zawartość."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбрасывает источники, сертификаты, приложения и прочие данные."
           }
         },
         "tr" : {
@@ -14026,10 +16450,22 @@
             "value" : "작업 캐시 초기화"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atstatyti darbo talpyklą"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zresetuj pamięć podręczną"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить рабочий кэш"
           }
         },
         "tr" : {
@@ -14097,10 +16533,22 @@
             "value" : "Heartbeat 재시작"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paleisti Heartbeat iš naujo"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Restartuj Heartbeat"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перезапустить Heartbeat"
           }
         },
         "tr" : {
@@ -14168,10 +16616,22 @@
             "value" : "재시작 필요"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reikia paleisti iš naujo"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wymagany restart"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Требуется перезапуск"
           }
         },
         "tr" : {
@@ -14215,10 +16675,22 @@
             "value" : "리보크"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atšauktas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odwołany"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отозван"
           }
         },
         "tr" : {
@@ -14292,6 +16764,12 @@
             "value" : "저장"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Išsaugoti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14345,10 +16823,22 @@
             "value" : "스크린샷"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekrano nuotraukos"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zrzuty ekranu"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Скриншоты"
           }
         },
         "tr" : {
@@ -14417,10 +16907,22 @@
             "value" : "소스별 모든 앱 보기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visos programos iš jūsų šaltinių"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zobacz wszystkie aplikacje ze swoich źródeł"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Все приложения из ваших источников"
           }
         },
         "tr" : {
@@ -14488,10 +16990,22 @@
             "value" : "페어링 파일을 손에 넣으신 것 같네요!"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atrodo, jūs gavote savo suporavimo failą!"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wygląda na to, że masz swój plik parowania!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Похоже, вы раздобыли файл сопряжения!"
           }
         },
         "tr" : {
@@ -14560,10 +17074,22 @@
             "value" : "대체 아이콘 선택"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasirinkti alternatyvią piktogramą"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wybierz alternatywną ikonę"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать альтернативный значок"
           }
         },
         "tr" : {
@@ -14632,10 +17158,22 @@
             "value" : "권한 파일 선택"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasirinkti entitlements failą"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wybierz plik uprawnień"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать файл entitlements"
           }
         },
         "tr" : {
@@ -14703,10 +17241,22 @@
             "value" : "부분 로컬"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iš dalies vietinis"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Częściowo lokalnie"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Частично локально"
           }
         },
         "tr" : {
@@ -14762,10 +17312,22 @@
             "value" : "Manifest 보내는 중"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siunčiamas manifestas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wysyłanie manifestu"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отправка манифеста"
           }
         },
         "tr" : {
@@ -14821,10 +17383,22 @@
             "value" : "Payload 보내는 중"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siunčiami duomenys"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wysyłanie ładunku"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отправка данных"
           }
         },
         "tr" : {
@@ -14880,10 +17454,22 @@
             "value" : "서버"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serveris"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Serwer"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сервер"
           }
         },
         "tr" : {
@@ -14939,10 +17525,22 @@
             "value" : "서버 (추천):\n로컬에 호스팅된 서버와 itms-services://를 사용하여 애플리케이션을 설치합니다.\n\nIDevice (고급):\nVPN과 페어링 파일을 사용합니다. AFC에 데이터를 기록하고 수동으로 installd를 호출하며, 콜백을 통해 설치 진행 상황을 모니터링합니다.\n장점: 매우 안정적이며, SSL 인증서나 외부 호스팅 서버가 필요하지 않습니다. 오히려 컴퓨터와 비슷한 방식으로 작동합니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serveris (rekomenduojama):\nNaudoja vietoje veikiantį serverį ir itms-services:// programoms diegti.\n\nIDevice (pažengusiems):\nNaudoja VPN ir suporavimo failą. Rašo per AFC ir rankiniu būdu iškviečia installd, o diegimo eigą stebi naudodamas atgalinį iškvietimą.\nPrivalumas: labai patikimas, nereikia SSL sertifikatų ar išorinio serverio. Veikia panašiai kaip kompiuteris."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Serwer (zalecane):\nUżywa lokalnie hostowanego serwera i itms-services:// do instalowania aplikacji.\n\nIDevice (zaawansowane):\nUżywa VPN i pliku parowania. Zapisuje do AFC i ręcznie wywołuje installd, monitorując postęp instalacji przez callback.\nZaleta: Jest bardzo niezawodny, nie wymaga certyfikatów SSL ani zewnętrznego serwera. Działa podobnie do komputera."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сервер (рекомендуется):\nИспользует локальный сервер и itms-services:// для установки приложений.\n\nIDevice (для опытных):\nИспользует VPN и файл сопряжения. Записывает данные через AFC и вручную вызывает installd, отслеживая ход установки через обратный вызов.\nПреимущество: очень надёжен, не требует SSL-сертификатов и внешнего сервера. Работает так же, как установка с компьютера."
           }
         },
         "tr" : {
@@ -15010,10 +17608,22 @@
             "value" : "서버 및 SSL"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serveris ir SSL"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Serwer i SSL"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сервер и SSL"
           }
         },
         "tr" : {
@@ -15069,10 +17679,22 @@
             "value" : "서버 유형"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serverio tipas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Typ serwera"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тип сервера"
           }
         },
         "tr" : {
@@ -15153,10 +17775,22 @@
             "value" : "설정"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nustatymai"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ustawienia"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки"
           }
         },
         "tr" : {
@@ -15225,10 +17859,22 @@
             "value" : "내보낼 때 시트 표시"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rodyti bendrinimo langą eksportuojant"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pokaż arkusz podczas eksportu"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показывать панель при экспорте"
           }
         },
         "tr" : {
@@ -15296,10 +17942,22 @@
             "value" : "응원을 보여주세요"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palaikykite mus"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pokaż swoje wsparcie"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поддержите нас"
           }
         },
         "tr" : {
@@ -15367,10 +18025,22 @@
             "value" : "후원을 통해 여러분의 응원을 보여주세요! 후원을 하실 수 없다면, 이 앱을 널리 알리는 것도 큰 도움이 됩니다!"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palaikykite mus paaukodami! Jei negalite paaukoti, padės ir žinios apie mus platinimas!"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Okaż wsparcie poprzez darowiznę! Jeśli nie możesz wesprzeć finansowo, podziel się informacją z innymi!"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поддержите нас пожертвованием! Если не получается, поможет и рассказ о нас друзьям!"
           }
         },
         "tr" : {
@@ -15438,10 +18108,22 @@
             "value" : "서명"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasirašyti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podpisz"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подписать"
           }
         },
         "tr" : {
@@ -15509,10 +18191,22 @@
             "value" : "서명됨"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasirašyta"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podpisane"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подписано"
           }
         },
         "tr" : {
@@ -15586,10 +18280,22 @@
             "value" : "서명중"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasirašymas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podpisywanie"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подпись"
           }
         },
         "tr" : {
@@ -15657,6 +18363,12 @@
             "value" : "서명 옵션"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasirašymo parinktys"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15722,10 +18434,22 @@
             "value" : "서명 유형"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasirašymo tipas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Typ podpisu"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тип подписи"
           }
         },
         "tr" : {
@@ -15769,10 +18493,22 @@
             "value" : "크기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dydis"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozmiar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Размер"
           }
         },
         "tr" : {
@@ -15816,10 +18552,22 @@
             "value" : "소스"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Šaltinis"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Źródło"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Источник"
           }
         },
         "tr" : {
@@ -15887,10 +18635,22 @@
             "value" : "소스 URL"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Šaltinio URL"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Adres URL repozytorium źródłowego"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "URL источника"
           }
         },
         "tr" : {
@@ -15971,10 +18731,22 @@
             "value" : "소스"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Šaltiniai"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Źródła"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Источники"
           }
         },
         "tr" : {
@@ -16018,10 +18790,22 @@
             "value" : "소스를 클립보드에 복사함"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Šaltiniai nukopijuoti į iškarpinę"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Źródła skopiowane do schowka"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Источники скопированы в буфер обмена"
           }
         },
         "tr" : {
@@ -16077,10 +18861,22 @@
             "value" : "속도"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Greitis"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prędkość"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Быстрое"
           }
         },
         "tr" : {
@@ -16160,6 +18956,12 @@
             "value" : "스폰서"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rėmėjai"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16237,10 +19039,22 @@
             "value" : "SSL 인증서"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSL sertifikatai"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Certyfikaty SSL"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSL-сертификаты"
           }
         },
         "tr" : {
@@ -16308,10 +19122,22 @@
             "value" : "표준"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Standartinis"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Standardowy"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Стандартное"
           }
         },
         "tr" : {
@@ -16385,10 +19211,22 @@
             "value" : "서명 시작"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pradėti pasirašyti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozpocznij podpisywanie"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начать подпись"
           }
         },
         "tr" : {
@@ -16456,10 +19294,22 @@
             "value" : "스토어 셀 외관"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parduotuvės elementų išvaizda"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wygląd komórki sklepu"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вид ячеек магазина"
           }
         },
         "tr" : {
@@ -16527,10 +19377,22 @@
             "value" : "문자열"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eilutė"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ciąg znaków"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Строка"
           }
         },
         "tr" : {
@@ -16610,6 +19472,12 @@
             "value" : "피드백 제출"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pateikti atsiliepimą"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16687,10 +19555,22 @@
             "value" : "KravaSign/MapleSign 및 ESign에서 가져오기를 지원합니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palaikomas importavimas iš KravaSign/MapleSign ir ESign."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Obsługuje importowanie z KravaSign/MapleSign i ESign"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поддерживается импорт из KravaSign/MapleSign и ESign."
           }
         },
         "tr" : {
@@ -16734,10 +19614,22 @@
             "value" : "뒤로 가기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grįžti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wróć"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вернуться"
           }
         },
         "tr" : {
@@ -16805,10 +19697,22 @@
             "value" : "팀 식별자"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Komandos identifikatoriai"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Identyfikatory zespołu"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Идентификаторы команды"
           }
         },
         "tr" : {
@@ -16876,10 +19780,22 @@
             "value" : "팀 이름"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Komandos pavadinimas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nazwa zespołu"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Название команды"
           }
         },
         "tr" : {
@@ -16947,10 +19863,22 @@
             "value" : "Heartbeat는 백그라운드에서 실행되며, 앱을 다시 열거나 요청이 있을 때 다시 시작됩니다. 아래 상태가 깜빡이고 있다면 정상적으로 작동하고 있다는 뜻입니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heartbeat veikia fone ir bus paleistas iš naujo, kai programa bus atidaryta iš naujo arba paprašyta. Jei žemiau esanti būsena pulsuoja, viskas gerai."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Monitor pracy aplikacji działa w tle. Zostanie uruchomiony ponownie po ponownym otwarciu lub wymuszeniu. Jeśli poniższy status pulsuje, wszystko działa poprawnie."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heartbeat работает в фоне и перезапускается при повторном открытии приложения или по запросу. Если индикатор ниже пульсирует, всё в порядке."
           }
         },
         "tr" : {
@@ -17006,10 +19934,22 @@
             "value" : "AltStore 저장소 형식만 지원됩니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palaikomos tik AltStore saugyklos."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jedynymi obsługiwanymi repozytoriami są repozytoria AltStore."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поддерживаются только репозитории AltStore."
           }
         },
         "tr" : {
@@ -17065,10 +20005,22 @@
             "value" : "테마"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tema"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Motyw"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тема"
           }
         },
         "tr" : {
@@ -17136,10 +20088,22 @@
             "value" : "이 변경 사항을 적용하려면 앱을 다시 시작해야 합니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Šiems pakeitimams įsigalioti reikia paleisti programą iš naujo"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Te zmiany wymagają ponownego uruchomienia aplikacji"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Для применения этих изменений нужно перезапустить приложение"
           }
         },
         "tr" : {
@@ -17194,10 +20158,22 @@
             "value" : "이 작업은 되돌릴 수 없습니다. 계속하시겠습니까?"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Šio veiksmo negalima atšaukti. Ar norite tęsti?"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tej czynności nie można cofnąć. Czy chcesz kontynuować?"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Это действие нельзя отменить. Продолжить?"
           }
         },
         "tr" : {
@@ -17241,10 +20217,22 @@
             "value" : "이를 통해 앱을 서명할 때 번들 ID/표시 이름을 자동으로 대체할 규칙을 설정할 수 있습니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čia galite nustatyti taisykles, pagal kurias pasirašant programą automatiškai keičiamas Bundle ID / rodomas pavadinimas."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Umożliwia ustawienie reguł automatycznej zamiany identyfikatora pakietu/wyświetlanej nazwy podczas podpisywania aplikacji."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Здесь можно задать правила автоматической замены Bundle ID и отображаемого имени при подписи приложения."
           }
         },
         "tr" : {
@@ -17300,10 +20288,22 @@
             "value" : "이를 통해 해당 앱에서 Liquid glass를 사용할 수 있게 되며, 변경 사항을 적용하려면 앱을 다시 시작해야 합니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tai įjungia Liquid Glass šioje programoje. Kad įsigaliotų, reikia paleisti programą iš naujo."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Włącza liquid glass dla tej aplikacji. Wymaga ponownego uruchomienia, aby zmiany zostały zastosowane."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Включает Liquid Glass для этого приложения. Для применения требуется перезапуск приложения."
           }
         },
         "tr" : {
@@ -17359,10 +20359,22 @@
             "value" : "이 옵션은 앱을 강제로 변환하여 iOS 26에서 도입된 새로운 Liquid Glass 디자인 방식을 사용하도록 시도합니다. 프레임워크가 서로 다르기 때문에 모든 앱에서 제대로 작동하지 않을 수 있습니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ši parinktis priverstinai konvertuoja programas, kad jos naudotų naują iOS 26 pateiktą Liquid Glass dizainą. Dėl skirtingų karkasų ji gali veikti ne visose programose."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ta opcja wymusza konwersję aplikacji na nowy wygląd liquid glass wprowadzony w iOS 26. Może nie działać ze wszystkimi aplikacjami z powodu różnych frameworków."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Эта опция принудительно переводит приложения на новый дизайн Liquid Glass из iOS 26. Из-за различий во фреймворках она может работать не во всех приложениях."
           }
         },
         "tr" : {
@@ -17392,6 +20404,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "This option merges entitlements with the embedded entitlements from the app you're signing."
+          }
+        },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ši parinktis sujungia entitlements su pasirašomos programos įterptais entitlements."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Эта опция объединяет entitlements со встроенными entitlements подписываемого приложения."
           }
         }
       }
@@ -17429,10 +20453,22 @@
             "value" : "서명 절차가 완료되면 불필요한 저장 공간을 절약하기 위해 가져온 애플리케이션을 삭제합니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importuota programa bus ištrinta po pasirašymo, kad nebūtų užimama nereikalinga vieta."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spowoduje to usunięcie zaimportowanej aplikacji po jej podpisaniu, co pozwoli zwolnić miejsce."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Импортированное приложение будет удалено после подписи, чтобы не занимать лишнее место."
           }
         },
         "tr" : {
@@ -17476,10 +20512,22 @@
             "value" : "틴트 아이콘"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atspalvio piktogramos"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Barwione Ikony"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Тонированные значки"
           }
         },
         "tr" : {
@@ -17547,10 +20595,22 @@
             "value" : "시트 표시를 토글하면 파일에 내보낸 후 공유 시트가 표시됩니다."
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Įjungus bus parodytas bendrinimo langas po eksportavimo į jūsų failus."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Włączenie arkusza spowoduje wyświetlenie arkusza udostępniania po wyeksportowaniu do plików."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Если включить, после экспорта в «Файлы» откроется панель «Поделиться»."
           }
         },
         "tr" : {
@@ -17618,10 +20678,22 @@
             "value" : "터널 및 페어링"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunelis ir suporavimas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tunel i parowanie"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Туннель и сопряжение"
           }
         },
         "tr" : {
@@ -17684,10 +20756,22 @@
             "value" : "트윅"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tweaks"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tweaks"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Твики"
           }
         },
         "tr" : {
@@ -17767,6 +20851,12 @@
             "value" : "알수없음"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nežinoma"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17808,10 +20898,22 @@
             "value" : "Update"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atnaujinti"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aktualizuj"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обновить"
           }
         }
       }
@@ -17825,10 +20927,22 @@
             "value" : "Update Available"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yra naujinimas"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dostępna aktualizacja"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступно обновление"
           }
         }
       }
@@ -17878,10 +20992,22 @@
             "value" : "SSL 인증서 업데이트"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atnaujinti SSL sertifikatus"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aktualizuj certyfikaty SSL"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обновить SSL-сертификаты"
           }
         },
         "tr" : {
@@ -17925,10 +21051,22 @@
             "value" : "업데이트됨"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atnaujinta"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zaktualizowano"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обновлено"
           }
         },
         "tr" : {
@@ -17978,7 +21116,19 @@
             "value" : "URL"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "URL"
+          }
+        },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "URL"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "URL"
@@ -18037,10 +21187,22 @@
             "value" : "값"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reikšmė"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Źródłowa wartość"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Значение"
           }
         },
         "tr" : {
@@ -18120,10 +21282,22 @@
             "value" : "버전"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versija"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wersja"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Версия"
           }
         },
         "tr" : {
@@ -18168,10 +21342,22 @@
             "value" : "버전 %@"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versija %@"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wersja %@"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Версия %@"
           }
         },
         "tr" : {
@@ -18215,10 +21401,22 @@
             "value" : "버전 기록"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versijų istorija"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Historia wersji"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "История версий"
           }
         },
         "tr" : {
@@ -18287,10 +21485,22 @@
             "value" : "권한 보기"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rodyti entitlements"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zobacz uprawnienia"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Показать entitlements"
           }
         },
         "tr" : {
@@ -18359,10 +21569,22 @@
             "value" : "Patreon 방문"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplankyti Patreon"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odwiedź Patreon"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть Patreon"
           }
         },
         "tr" : {
@@ -18431,10 +21653,22 @@
             "value" : "웹사이트 방문"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplankyti svetainę"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odwiedź stronę"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Открыть сайт"
           }
         },
         "tr" : {
@@ -18478,10 +21712,22 @@
             "value" : "변경 사항"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kas naujo"
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Co nowego"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Что нового"
           }
         },
         "tr" : {
@@ -18543,10 +21789,22 @@
             "value" : "`%@`을(를) 자체적으로 업데이트할 수 없습니다. 다른 도구를 사용해 업데이트해 주세요.\n"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Negalite atnaujinti „%@“ pačia savimi, naudokite kitą įrankį."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nie można zaktualizować „%@” przy jego użyciu. Użyj innego narzędzia do aktualizacji."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нельзя обновить «%@» самим собой. Воспользуйтесь другим инструментом."
           }
         },
         "tr" : {
@@ -18602,10 +21860,22 @@
             "value" : "페어링 파일이 올바르지 않거나 기기와 호환되지 않습니다. 유효한 페어링 파일을 가져와 주세요.\n"
           }
         },
+        "lt" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jūsų suporavimo failas netinkamas ir nesuderinamas su įrenginiu. Importuokite galiojantį suporavimo failą."
+          }
+        },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Twój plik parowania jest nieprawidłowy i niekompatybilny z urządzeniem. Zaimportuj poprawny plik."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваш файл сопряжения недействителен и несовместим с устройством. Импортируйте действующий файл сопряжения."
           }
         },
         "tr" : {
