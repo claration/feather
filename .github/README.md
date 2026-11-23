@@ -64,7 +64,7 @@ To properly contribute and test potentially test localizations, you can head ove
 - [LiveContainer](https://github.com/LiveContainer/LiveContainer) - Fixes/some help
 - [Nuke](https://github.com/kean/Nuke) - Image caching.
 - [Asspp](https://github.com/Lakr233/Asspp) - Some code for setting up the http server.
-- [plistserver](https://github.com/nekohaxx/plistserver) - Hosted on https://api.palera.in.
+- [plistworker](https://github.com/palera1n/plistworker) - Hosted on https://api.palera.in, This repository is the new repository for plistserver (now plistworker), the original repository is going to be abandoned due to the current owner not wanting to transfer because of the stars, even though I asked them to fork it in the first place, and it being primarily used for [Feather](https://github.com/claration/feather)'s userbase.
 
 ## License 
 
