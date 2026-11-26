@@ -28,9 +28,15 @@ struct LibraryInfoView: View {
 				_executableSection(for: app)
 				
 				Section {
+					#if targetEnvironment(macCatalyst)
+					Button(.localized("Open in Finder"), systemImage: "folder") {
+						UIApplication.open(Storage.shared.getUuidDirectory(for: app)!)
+					}
+					#else
 					Button(.localized("Open in Files"), systemImage: "folder") {
 						UIApplication.open(Storage.shared.getUuidDirectory(for: app)!.toSharedDocumentsURL()!)
 					}
+					#endif
 				}
 			}
 			.toolbar {
@@ -129,4 +135,3 @@ extension LibraryInfoView {
 		.copyableText(desc)
 	}
 }
-
