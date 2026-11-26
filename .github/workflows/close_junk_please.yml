@@ -1,0 +1,43 @@
+name: Close Junk Issues
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  close_junk:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Close junk issues
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # 9.0.0
+        with:
+          script: |
+            const issue = context.payload.issue;
+
+            if (issue.title.includes('replace this with a descriptive title')) {
+              const { owner, repo } = context.repo;
+              const issue_number = issue.number;
+
+              await github.rest.issues.createComment({
+                owner,
+                repo,
+                issue_number,
+                body: 'Submitting these types of issues is not supported! Use the standard issue template instead.'
+              });
+
+              await github.rest.issues.update({
+                owner,
+                repo,
+                issue_number,
+                state: 'closed',
+                state_reason: 'not_planned'
+              });
+
+              await github.rest.issues.lock({
+                owner,
+                repo,
+                issue_number,
+                lock_reason: 'spam'
+              });
+            }
