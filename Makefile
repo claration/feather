@@ -45,7 +45,11 @@ $(PLATFORMS): deps
 	mkdir -p _build/Payload
 	cp -R _build/Applications/*.app _build/Payload/Feather.app
 	chmod -R 0755 _build/Payload/Feather.app
-	codesign --force --sign - --timestamp=none _build/Payload/Feather.app
+	@if [ "$@" = "iphoneos" ]; then \
+		codesign --force --sign - --timestamp=none _build/Payload/Feather.app; \
+	else \
+		codesign --force --sign - --timestamp=none --entitlements "Feather/Supporting Files/Feather-Catalyst.entitlements" _build/Payload/Feather.app; \
+	fi;
 	cp deps/* _build/Payload/Feather.app/ || true
 
 	mkdir -p packages
